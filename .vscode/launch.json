@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run StandApp (PICO)",
+            "request": "launch",
+            "mainClass": "StandApp",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/postgresql-42.7.4.jar"
+            ]
+        }
+    ]
+}
